@@ -159,6 +159,9 @@ nav>ul>li>button {
         padding: 5% 7%;
         width: 100%;
     }
+    .p1-content button{
+        transform: translateX(-73px);
+    }
 }
 
 
@@ -302,6 +305,7 @@ select {
     .search-plan>button {
         display: initial;
         margin-top: 3%;
+        transform:translate(50px,10px) ;
     }
     .search-plan>.where>.pin{
         margin-left: 140px;
@@ -325,30 +329,32 @@ select {
         margin-top: 10px;
         flex-direction: column;
         display: initial;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .how {
-        margin-top: 20px;
-        text-align: center;
+        margin-top: 40px;
+        margin-left: -20px;
+        /* text-align: center; */
 
     }
 
     .signup {
         margin-top: 3%;
-        text-align: center;
+        /* text-align: center; */
 
     }
 
     .contribute {
         margin-top: 3%;
-        text-align: center;
+        /* text-align: center; */
 
     }
 
     .travel {
         margin-top: 3%;
-        text-align: center;
+        margin-left: 5px;
+        /* text-align: center; */
 
     }
 
@@ -549,7 +555,8 @@ select {
         margin-top: 8%;
     }
     .card-content button{
-        margin-bottom: 20px;
+        margin-right:30px ;
+        margin-bottom: 30px;
     }
     .p3-card {
         margin: auto;
@@ -568,7 +575,7 @@ select {
 
 .p4 {
     width: 100%;
-    padding: 5% 7%;
+    padding: 2% 7%;
     /* background-color: aquamarine; */
     display: flex;
 }
@@ -659,6 +666,9 @@ select {
     
     .p4{
         flex-direction: column;
+    }
+    .p4-right>button{
+        margin-left: 22px;
     }
 } 
 
@@ -1041,6 +1051,12 @@ img{
     .mid>.para{
         padding-bottom: 50px;
     }
+    .para3{
+        text-align: center; 
+        margin-top: 35px;
+        transform: translateX(0px);
+    }                    
+    
 }
 
 
@@ -1081,6 +1097,25 @@ img{
     border: 2px #3B3A96 solid;
 }
 /* ----page8 ends---- */
+
+@media (min-width: 320px) and (max-width: 600px){
+    .subscribe{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    
+    }
+    .subscribe>input,button{
+        margin-top: 60px;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 70px;
+        font-size: 10px;
+        transform: translateX(-30px);
+    }
+}
+
 
 /* ----page9 starts---- */
 .p9{
